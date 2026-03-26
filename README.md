@@ -49,4 +49,4 @@ Built as a learning project to understand:
 ---
 
 ## 👨‍💻 Author
-Harsh
+MeowTheCatto
