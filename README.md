@@ -1,15 +1,52 @@
-# JDBC Employee Management System
+# JDBC CRUD Employee Management System
 
-This is a simple Java console-based application that demonstrates basic JDBC operations with a MySQL database.
+## 📌 Overview
+A simple **menu-driven Java application** that performs **CRUD operations** on an employee database using JDBC.
 
-The project allows users to:
-- Insert employee records into a database
-- Retrieve and display all stored employee records
+This project demonstrates how Java interacts with a database to manage records efficiently.
 
-It uses a menu-driven interface and reads database credentials securely from a `.env` file instead of hardcoding them.
+---
 
-This project is mainly built to understand:
-- JDBC connectivity
-- SQL operations (INSERT, SELECT)
-- Use of PreparedStatement
-- Handling environment variables in Java
+## 🚀 Features
+- ➕ Add new employee records  
+- 📄 View all employee records  
+- ✏️ Update employee salary  
+- ❌ Delete employee records  
+- 📋 Console-based menu system  
+
+---
+
+## 🛠️ Tech Stack
+- Java  
+- JDBC (Java Database Connectivity)  
+- MySQL  
+- Dotenv (for environment variables)  
+
+---
+
+## 💡 Highlights
+- Uses `PreparedStatement` for secure database operations  
+- Follows clean separation of CRUD functionalities  
+- Menu-driven structure for easy interaction  
+
+---
+
+## 📂 Structure
+Main.java        → Menu controller  
+Insertion.java   → Create  
+Retrieval.java   → Read  
+Updation.java    → Update  
+Deletion.java    → Delete  
+
+---
+
+## 🎯 Purpose
+Built as a learning project to understand:
+- JDBC connectivity  
+- SQL operations in Java  
+- Structuring a basic database application  
+
+---
+
+## 👨‍💻 Author
+Harsh
