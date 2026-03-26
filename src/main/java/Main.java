@@ -16,7 +16,9 @@ public class Main {
             System.out.println("********************");
             System.out.println("1. Insert values into Table");
             System.out.println("2. Retrieve all records");
-            System.out.println("3. Exit the app");
+            System.out.println("3. Update salary of Employee");
+            System.out.println("4. Delete records of Employee");
+            System.out.println("5. Exit the app");
             System.out.print("Select option to Perform: ");
 
             option = scanner.nextInt();
@@ -31,6 +33,14 @@ public class Main {
                     retrieve.retrieve();
                 }
                 case 3 -> {
+                    Updation update = new Updation();
+                    update.update();
+                }
+                case 4 -> {
+                    Deletion delete= new Deletion();
+                    delete.delete();
+                }
+                case 5 -> {
                     System.out.println("Thank you!!");
                     isRunning = false;
                 }
